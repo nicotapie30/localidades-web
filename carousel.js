@@ -2,13 +2,13 @@ class MyCarousel extends HTMLElement {
   constructor() {
     super();
 
-    const shadow = this.attachShadow({ mode: 'open' });
+    const shadow = this.attachShadow({ mode: "open" });
 
-    const article = document.createElement('article');
-    article.classList.add('article__carousel');
+    const article = document.createElement("article");
+    article.classList.add("article__carousel");
 
-    const divContainer = document.createElement('div');
-    divContainer.classList.add('carousel__container');
+    const divContainer = document.createElement("div");
+    divContainer.classList.add("carousel__container");
     divContainer.innerHTML = `  <div class="carousel">
                                         <img src="./imgs/buenosaires.webp" alt="Buenos-Aires" title="Buenos Aires">
                                         <p>Buenos Aires</p>
@@ -276,4 +276,4 @@ class MyCarousel extends HTMLElement {
   }
 }
 
-customElements.define('my-carousel', MyCarousel);
+customElements.define("my-carousel", MyCarousel);

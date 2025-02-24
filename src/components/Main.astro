@@ -1,0 +1,31 @@
+---
+import Step from "./Step.astro"
+import Errors from "./Errors.astro"
+const { title } = Astro.props
+---
+
+<section class="section__titles">
+    <h1>{title}</h1>
+    <h2 class="titles__subtitle">
+      Bienvenido a la API de Localidades de Argentina. Esta te permite
+      acceder a información sobre provincias, departamentos y localidades
+      del país. A continuación, te mostramos cómo puedes empezar a
+      utilizarla. Los endpoints disponibles y cómo manejar posibles errores.
+    </h2>
+  </section>
+
+  <my-carousel></my-carousel>
+
+
+  <section class="section__main">
+    <main class="main__main" id="main">
+      <h2 class="main__title">Guía para Utulizar la API</h2>
+
+      <h3 class="main__endpoints">Endpoints Disponibles</h3>
+
+      <div class="main__container-containers">
+        <Step />
+        <Errors />
+      </div>
+    </main>
+  </section>

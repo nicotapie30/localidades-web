@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "title": "400 Bad Request:",
+  "cause": "La solicitud es inválida",
+  "solution": "Revisa la documentación de la API, para asegurarte de que estás enviando los parámetros correctos"
+}

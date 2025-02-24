@@ -1,0 +1,6 @@
+{
+  "id": 2,
+  "title": "404 Not found:",
+  "cause": "El recurso solicitado no existe",
+  "solution": "Verifica que la URL y los parámetros sean correctos"
+}
